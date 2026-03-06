@@ -65,6 +65,7 @@ body.inner-page .footer {
   }
 
   body.inner-page main {
+    display: flex;
     justify-content: center;
     padding: 1rem 0.5rem;
   }
