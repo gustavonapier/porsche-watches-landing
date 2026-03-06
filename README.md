@@ -14,16 +14,16 @@ A página apresenta um produto em destaque com um layout moderno dividido em dua
 ## 📸 Screenshots
 
 ### Página inicial
-![Home](<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/fa741bda-6f17-4d29-bce5-52cb6d0a4482" />)
+![Home](https://github.com/user-attachments/assets/fa741bda-6f17-4d29-bce5-52cb6d0a4482)
 
 ### Página de cadastro
-![Signup](<img width="1919" height="996" alt="image" src="https://github.com/user-attachments/assets/9d93f5ee-acde-455f-bf8f-46ab9154aa32" />)
+![Signup](https://github.com/user-attachments/assets/9d93f5ee-acde-455f-bf8f-46ab9154aa32)
 
 ### Mobile
 
-![Home](<img width="1919" height="993" alt="image" src="https://github.com/user-attachments/assets/136dae1c-154e-488d-af3d-a19d82c21446" />)
+![Mobile Home](https://github.com/user-attachments/assets/136dae1c-154e-488d-af3d-a19d82c21446)
 
-![Signup](<img width="1919" height="1001" alt="image" src="https://github.com/user-attachments/assets/f8bb29f0-40ac-4224-9e4a-7f81692a91b9" />)
+![Mobile Signup](https://github.com/user-attachments/assets/f8bb29f0-40ac-4224-9e4a-7f81692a91b9)
 
 ---
 
