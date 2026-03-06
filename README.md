@@ -5,6 +5,14 @@ O objetivo foi praticar conceitos de **desenvolvimento front-end**, focando em l
 
 ---
 
+## 🔗 Acesse o projeto
+
+Você pode visualizar o projeto aqui:
+
+[Ver projeto online](https://gustavonapier.github.io/porsche-watches-landing/)
+
+---
+
 ## 🚀 Demonstração
 
 A página apresenta um produto em destaque com um layout moderno dividido em duas cores, além de uma página de **criação de conta (Sign Up)**.
