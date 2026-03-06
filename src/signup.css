@@ -1,0 +1,168 @@
+body.inner-page {
+  background: linear-gradient(to right, #dbdce0 50%, #232637 50%);
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.inner-page main {
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem clamp(1rem, 3vw, 2.5rem);
+}
+
+.page-shell {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 1.2rem;
+  padding: clamp(1rem, 2.4vw, 2rem);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 8px 18px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(4px);
+}
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+.page-head h1 {
+  font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+  color: #191d2e;
+}
+
+.page-head p {
+  color: #4b4f5e;
+  font-weight: 500;
+}
+
+.tagline {
+  color: #740d99;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.form-block {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e8e9ee;
+  border-radius: 0.9rem;
+  padding: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+.form-block h2 {
+  margin-bottom: 0.9rem;
+  color: #191d2e;
+  text-align: center;
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.form-field span {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #4b4f5e;
+  font-size: 0.92rem;
+}
+
+.form-field input {
+  width: 100%;
+  border: 1px solid #d7dae5;
+  border-radius: 0.5rem;
+  padding: 0.72rem 0.75rem;
+  font-size: clamp(0.92rem, 1.2vw, 0.98rem);
+}
+
+.accent-btn {
+  display: inline-block;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.8rem 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(120deg, #232637, #740d99);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.accent-btn:hover {
+  background: linear-gradient(120deg, #191c2c, #4d0968);
+}
+
+.form-block .accent-btn {
+  display: block;
+  margin: 1rem auto 0;
+}
+
+#signup-feedback {
+  margin-top: 0.8rem;
+  font-weight: 600;
+  color: #232637;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  body.inner-page {
+    overflow-y: auto;
+  }
+
+  body.inner-page main {
+    padding: 1rem 0.2rem 0.5rem;
+  }
+
+  .page-shell {
+    padding: 1rem;
+  }
+
+  .page-head {
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .inner-page .navbar {
+    padding: 12px 6px;
+  }
+
+  .page-head {
+    gap: 0.55rem;
+    margin-bottom: 1rem;
+  }
+
+  .page-head h1 {
+    font-size: 1.9rem;
+    line-height: 1.15;
+  }
+
+  .page-head p {
+    font-size: 0.95rem;
+  }
+
+  .form-block {
+    border-radius: 0.75rem;
+  }
+
+  .form-field span {
+    font-size: 0.88rem;
+  }
+
+  .form-block .accent-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

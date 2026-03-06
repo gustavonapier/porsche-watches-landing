@@ -1,0 +1,160 @@
+/* Responsive overrides without changing base files */
+
+body {
+  overflow-x: hidden;
+}
+
+/* Signup page specific adjustments */
+body.inner-page {
+  overflow-y: hidden;
+}
+
+body.inner-page .zero {
+  display: none;
+}
+
+body.inner-page .footer {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  body.inner-page {
+    overflow-y: hidden;
+  }
+
+  body {
+    margin: 0 1rem;
+  }
+
+  .navbar {
+    flex-direction: row;
+    gap: 0.6rem;
+    padding: 14px 10px;
+  }
+
+  .navbar ul {
+    gap: 0.9rem;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .container::before {
+    font-size: 2.8rem;
+    letter-spacing: 0.28rem;
+    top: 46%;
+  }
+
+  .container::after {
+    font-size: 9.5rem;
+    top: 12%;
+    left: 58%;
+  }
+
+  .container img {
+    width: min(78vw, 320px);
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: center;
+  }
+
+  .right-footer ul {
+    gap: 1rem;
+  }
+
+  body.inner-page main {
+    justify-content: center;
+    padding: 1rem 0.5rem;
+  }
+
+  .page-shell {
+    width: min(100%, 760px);
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  body.inner-page .left-footer {
+    display: none;
+  }
+
+  body.inner-page .footer {
+    padding: 8px 0 14px;
+  }
+
+  body.inner-page .right-footer ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 0.6rem;
+  }
+
+  .zero {
+    display: none;
+  }
+
+  .navbar {
+    padding: 10px 4px;
+  }
+
+  .navbar ul li a {
+    font-size: 0.95rem;
+  }
+
+  .container::before {
+    display: none;
+  }
+
+  .container::after {
+    display: none;
+  }
+
+  .container img {
+    width: min(82vw, 290px);
+  }
+
+  .accent-btn {
+    padding: 0.75rem 1.5rem;
+  }
+
+  main {
+    gap: 1rem;
+  }
+
+  .footer {
+    padding: 10px 8px 16px;
+  }
+
+  .left-footer p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .left-footer {
+    display: none;
+  }
+
+  .right-footer ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1.2rem;
+  }
+
+  .right-footer ul li a {
+    font-size: 0.95rem;
+  }
+
+  .page-head h1 {
+    font-size: 1.9rem;
+    line-height: 1.15;
+  }
+
+  .form-block .accent-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
