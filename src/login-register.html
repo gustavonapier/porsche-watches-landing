@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Porsche Watches</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="inner-page">
+    <nav class="navbar">
+      <div class="left-nav">
+        <ul>
+          <li><a href="index.html"><span>Home</span></a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <ul>
+          <li><a href="login-register.html">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="page-shell">
+        <div class="page-head">
+          <div>
+            <span class="tagline">sign-up</span>
+            <h1>Create Your Account</h1>
+          </div>
+          <p>Fake signup flow for prototype testing.</p>
+        </div>
+        <form class="form-block" id="signup-form">
+          <h2>Sign Up</h2>
+          <label class="form-field">
+            <span>Full name</span>
+            <input type="text" name="name" placeholder="Your full name" required />
+          </label>
+          <label class="form-field">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@email.com" required />
+          </label>
+          <label class="form-field">
+            <span>Password</span>
+            <input type="password" name="password" placeholder="Create password" minlength="6" required />
+          </label>
+          <button class="accent-btn" type="submit">Create Account</button>
+          <p id="signup-feedback" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="left-footer">
+        <p>Copyright &copy; 2026 Gustavo Azevedo. All rights reserved.</p>
+      </div>
+      <div class="right-footer">
+        <ul>
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://www.twitter.com">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      const signupForm = document.getElementById("signup-form");
+      const feedback = document.getElementById("signup-feedback");
+
+      signupForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        feedback.textContent = "Cadastro criado com sucesso! Redirecionando para a home...";
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 1300);
+      });
+    </script>
+  </body>
+</html>
